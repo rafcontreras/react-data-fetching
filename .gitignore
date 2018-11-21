@@ -3,10 +3,10 @@ modules/__tests__/__coverage__
 coverage
 
 # BUILD
-cjs
-esm
-umd
-.tgz
+# cjs
+# esm
+# umd
+# .tgz
 
 # NODE
 node_modules
