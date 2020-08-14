@@ -1,6 +1,6 @@
 const fs = require('fs')
 const gzipSize = require('gzip-size')
-const pascalCase = require('pascal-case')
+const { pascalCase } = require('pascal-case')
 const path = require('path')
 const prettyBytes = require('pretty-bytes')
 const { execSync } = require('child_process')

@@ -86,7 +86,7 @@ const config = {
     },
   },
   external: ['react'],
-  plugins: getPlugins(process.env.BUILD_ENV),
+  plugins: getPlugins(process.env.BUILD_ENV)
 }
 
 module.exports = config
