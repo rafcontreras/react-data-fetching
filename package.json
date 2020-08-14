@@ -22,7 +22,6 @@
     "lint": "eslint . --fix",
     "test": "yarn jest && cat ./modules/__tests__/__coverage__/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
     "prettier": "prettier --config .prettierrc --parser flow --write \"**/*.js\"",
-    "precommit": "lint-staged && yarn lint && git add . && yarn flow && yarn jest",
     "postcommit": "git update-index --again",
     "prepack": "node ./scripts/build.js"
   },
@@ -155,5 +154,8 @@
     "fetch",
     "api",
     "component"
-  ]
+  ],
+  "node": {
+    "global" : false
+  }
 }
